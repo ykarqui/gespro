@@ -24,11 +24,11 @@ import ar.edu.iua.gespro.model.persistence.FactoryDAO;
 @RestController
 @RequestMapping(Constants.URL_SPRINT_LIST)
 public class ListRESTController {
-	
+
 	@Autowired
 	private IListBusiness listBusiness;
 	final static Logger logger = Logger.getLogger("TaskRESTController.class");
-	
+
 	@RequestMapping(value = { "", "/" }, method = RequestMethod.GET, produces = "application/json")
 	public ResponseEntity<List<SprintList>> getAll() {
 		try {
@@ -39,7 +39,7 @@ public class ListRESTController {
 			return new ResponseEntity<List<SprintList>>(HttpStatus.INTERNAL_SERVER_ERROR);
 		}
 	}
-	
+
 	@RequestMapping(value = { "/{name}" }, method = RequestMethod.GET, produces = "application/json")
 	public ResponseEntity<SprintList> getId(@PathVariable("name") String name) {
 		try {
@@ -53,9 +53,9 @@ public class ListRESTController {
 			return new ResponseEntity<SprintList>(HttpStatus.NOT_FOUND);
 		}
 	}
-	
-	@RequestMapping(value = {"","/"}, method = RequestMethod.POST, produces = "application/json")
-	public ResponseEntity<SprintList> add(@RequestBody SprintList sprintList){
+
+	@RequestMapping(value = { "", "/" }, method = RequestMethod.POST, produces = "application/json")
+	public ResponseEntity<SprintList> add(@RequestBody SprintList sprintList) {
 		try {
 			SprintList sl = listBusiness.add(sprintList);
 			HttpHeaders responseHeaders = new HttpHeaders();
@@ -71,9 +71,9 @@ public class ListRESTController {
 		} catch (NotFoundException nfe) {
 			logger.error("Http status:" + HttpStatus.NOT_FOUND + " in add()");
 			return new ResponseEntity<SprintList>(HttpStatus.NOT_FOUND);
-		} 
+		}
 	}
-	
+
 	@RequestMapping(value = { "/{id}" }, method = RequestMethod.PUT, produces = "application/json")
 	public ResponseEntity<SprintList> update(@PathVariable("id") int id, @RequestBody SprintList sprintList) {
 		try {
@@ -86,20 +86,20 @@ public class ListRESTController {
 			return new ResponseEntity<SprintList>(HttpStatus.NOT_FOUND);
 		}
 	}
-	
+
 	@RequestMapping(value = { "", "/" }, method = RequestMethod.DELETE, produces = "application/json")
 	public ResponseEntity<SprintList> delete(
 			@RequestParam(required = false, value = "id", defaultValue = "0") Integer id,
 			@RequestParam(required = false, value = "name", defaultValue = "") String name) {
 		try {
 			SprintList sl = new SprintList();
-			if (id!=0) {
+			if (id != 0) {
 				sl = listBusiness.getOneId(id);
 				listBusiness.delete(sl);
-			}else if (!name.equalsIgnoreCase("") && name.length()>0) {
+			} else if (!name.equalsIgnoreCase("") && name.length() > 0) {
 				sl = listBusiness.getOne(name);
 				listBusiness.delete(sl);
-			}else {
+			} else {
 				logger.error("Http status:" + HttpStatus.NOT_FOUND + " in delete()");
 				return new ResponseEntity<SprintList>(HttpStatus.NOT_FOUND);
 			}
@@ -112,5 +112,6 @@ public class ListRESTController {
 			logger.error("Http status:" + HttpStatus.NOT_FOUND + " in delete()");
 			return new ResponseEntity<SprintList>(HttpStatus.NOT_FOUND);
 		}
+
 	}
 }
