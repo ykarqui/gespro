@@ -76,7 +76,7 @@
 	src="modules/angular-dragdrop/src/angular-dragdrop.min.js"></script>
 <script
 	src="modules/angular-ui-notification/dist/angular-ui-notification.min.js"></script>
-
+<script type="text/javascript" src="modules/angular-drag-and-drop-lists/angular-drag-and-drop-lists.min.js"></script>
 
 <script type="text/javascript" src="app.js"></script>
 <script type="text/javascript" src="config/config.js"></script>
@@ -127,7 +127,7 @@
 		      </ul>
 		      <ul class="nav navbar-nav navbar-right">
 		        <li class="dropdown" ng-show="auth">
-		      		<a class="dropdown-toggle" data-toggle="dropdown">User <span class="caret"></span></a>
+		      		<a class="dropdown-toggle" data-toggle="dropdown">{{user.name}}<span class="caret"></span></a>
 		      		<ul class="dropdown-menu">
 		        		<li><a ng-click="logout(true)">Log out</a></li>
 		      		</ul>

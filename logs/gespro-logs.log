@@ -1697,3 +1697,868 @@ SprintTask
 [2018-12-19 22:52:49] INFO  ar.edu.iua.gespro.GesproApplication:main:21 > Start the app
 [2018-12-19 22:58:43] INFO  ar.edu.iua.gespro.GesproApplication:main:21 > Start the app
 [2018-12-19 22:58:44] INFO  ar.edu.iua.gespro.GesproApplication:main:21 > Start the app
+[2018-12-20 10:48:45] INFO  ar.edu.iua.gespro.GesproApplication:main:21 > Start the app
+[2018-12-20 10:48:46] INFO  ar.edu.iua.gespro.GesproApplication:main:21 > Start the app
+[2018-12-20 10:51:10] INFO  ar.edu.iua.gespro.GesproApplication:main:21 > Start the app
+[2018-12-20 10:51:41] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 10:51:41] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 10:51:43] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 10:51:43] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 10:51:49] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 10:51:49] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 10:51:52] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 10:51:52] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 10:51:55] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 10:51:55] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 10:51:58] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 10:51:58] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 10:52:05] DEBUG ar.edu.iua.gespro.web.services.ListRESTController:getId:55 > Trying to get the following list: backlog; Tasks Order By Priority
+[2018-12-20 10:52:08] DEBUG ar.edu.iua.gespro.web.services.ListRESTController:getId:58 > Trying to get the following list: backlog; Tasks Order By Created Date
+[2018-12-20 10:52:11] DEBUG ar.edu.iua.gespro.web.services.ListRESTController:getId:55 > Trying to get the following list: backlog; Tasks Order By Priority
+[2018-12-20 10:52:15] DEBUG ar.edu.iua.gespro.web.services.ListRESTController:getId:58 > Trying to get the following list: backlog; Tasks Order By Created Date
+[2018-12-20 10:52:25] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 10:52:25] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 10:52:38] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 10:52:56] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 10:52:56] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 10:53:18] INFO  ar.edu.iua.gespro.GesproApplication:main:21 > Start the app
+[2018-12-20 10:58:18] INFO  ar.edu.iua.gespro.GesproApplication:main:21 > Start the app
+[2018-12-20 10:58:19] INFO  ar.edu.iua.gespro.GesproApplication:main:21 > Start the app
+[2018-12-20 11:01:45] INFO  ar.edu.iua.gespro.GesproApplication:main:21 > Start the app
+[2018-12-20 11:02:03] INFO  ar.edu.iua.gespro.GesproApplication:main:21 > Start the app
+[2018-12-20 11:02:22] INFO  ar.edu.iua.gespro.GesproApplication:main:21 > Start the app
+[2018-12-20 11:02:53] INFO  ar.edu.iua.gespro.GesproApplication:main:21 > Start the app
+[2018-12-20 11:03:08] INFO  ar.edu.iua.gespro.GesproApplication:main:21 > Start the app
+[2018-12-20 11:03:40] INFO  ar.edu.iua.gespro.GesproApplication:main:21 > Start the app
+[2018-12-20 11:05:12] INFO  ar.edu.iua.gespro.GesproApplication:main:21 > Start the app
+[2018-12-20 11:10:34] INFO  ar.edu.iua.gespro.GesproApplication:main:21 > Start the app
+[2018-12-20 11:10:34] INFO  ar.edu.iua.gespro.GesproApplication:main:21 > Start the app
+[2018-12-20 11:11:21] INFO  ar.edu.iua.gespro.GesproApplication:main:21 > Start the app
+[2018-12-20 11:13:09] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 11:13:12] DEBUG ar.edu.iua.gespro.GesproApplication:run:37 > datasource is HikariDataSource (HikariPool-3)
+[2018-12-20 11:15:43] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 11:15:45] DEBUG ar.edu.iua.gespro.GesproApplication:run:37 > datasource is HikariDataSource (HikariPool-4)
+[2018-12-20 11:18:26] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 11:18:29] DEBUG ar.edu.iua.gespro.GesproApplication:run:37 > datasource is HikariDataSource (HikariPool-5)
+[2018-12-20 11:25:01] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 11:25:03] DEBUG ar.edu.iua.gespro.GesproApplication:run:37 > datasource is HikariDataSource (HikariPool-6)
+[2018-12-20 11:29:10] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 11:29:12] DEBUG ar.edu.iua.gespro.GesproApplication:run:37 > datasource is HikariDataSource (HikariPool-7)
+[2018-12-20 11:38:32] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 11:38:33] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 11:38:45] DEBUG ar.edu.iua.gespro.GesproApplication:run:37 > datasource is HikariDataSource (HikariPool-1)
+[2018-12-20 11:42:56] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 11:42:56] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 11:43:07] DEBUG ar.edu.iua.gespro.GesproApplication:run:37 > datasource is HikariDataSource (HikariPool-1)
+[2018-12-20 11:46:09] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 11:46:09] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 11:47:32] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 11:47:32] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 11:47:45] DEBUG ar.edu.iua.gespro.GesproApplication:run:37 > datasource is HikariDataSource (HikariPool-1)
+[2018-12-20 11:58:00] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 11:58:01] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 11:58:02] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 11:58:02] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 11:58:03] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 11:58:03] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 11:58:04] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 11:58:04] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 11:58:05] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 11:58:05] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 11:58:05] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 11:58:05] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 11:58:06] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 11:58:06] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 11:58:17] ERROR ar.edu.iua.gespro.model.persistence.SprintListDAO:getOne:138 > List not found. getOne(name)
+[2018-12-20 11:58:17] ERROR ar.edu.iua.gespro.business.impl.TaskBusiness:add:157 > The task pri can't been saved (NF_Ex)
+[2018-12-20 11:58:17] ERROR ar.edu.iua.gespro.business.impl.TaskBusiness:add:158 > ar.edu.iua.gespro.model.exception.NotFoundException
+[2018-12-20 11:58:17] ERROR ar.edu.iua.gespro.web.services.TaskRESTController:add:94 > Http status:404 in add()
+[2018-12-20 11:58:17] ERROR ar.edu.iua.gespro.web.services.TaskRESTController:add:95 > ar.edu.iua.gespro.model.exception.NotFoundException: ar.edu.iua.gespro.model.exception.NotFoundException
+[2018-12-20 11:58:17] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 11:59:10] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 11:59:10] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 11:59:17] ERROR ar.edu.iua.gespro.model.persistence.SprintListDAO:getOne:138 > List not found. getOne(name)
+[2018-12-20 11:59:17] ERROR ar.edu.iua.gespro.business.impl.TaskBusiness:add:157 > The task pri can't been saved (NF_Ex)
+[2018-12-20 11:59:17] ERROR ar.edu.iua.gespro.business.impl.TaskBusiness:add:158 > ar.edu.iua.gespro.model.exception.NotFoundException
+[2018-12-20 11:59:17] ERROR ar.edu.iua.gespro.web.services.TaskRESTController:add:94 > Http status:404 in add()
+[2018-12-20 11:59:17] ERROR ar.edu.iua.gespro.web.services.TaskRESTController:add:95 > ar.edu.iua.gespro.model.exception.NotFoundException: ar.edu.iua.gespro.model.exception.NotFoundException
+[2018-12-20 11:59:17] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 11:59:24] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 11:59:24] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 11:59:39] DEBUG ar.edu.iua.gespro.model.persistence.SprintListDAO:save:94 > saving the list: backlog
+[2018-12-20 11:59:39] DEBUG ar.edu.iua.gespro.web.services.ListRESTController:add:82 > Adding the following list: 
+SprintList
+	 [id: 1,
+	 name: backlog,
+	 sprintName: sprint 1]
+[2018-12-20 11:59:49] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 11:59:49] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 11:59:56] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:add:130 > The task pri has been asigned to backlog list
+[2018-12-20 11:59:56] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:add:85 > A task has been saved
+[2018-12-20 11:59:57] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 12:00:01] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 12:00:01] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 12:00:35] DEBUG ar.edu.iua.gespro.model.persistence.SprintListDAO:save:94 > saving the list: to-do
+[2018-12-20 12:00:35] DEBUG ar.edu.iua.gespro.web.services.ListRESTController:add:82 > Adding the following list: 
+SprintList
+	 [id: 2,
+	 name: to-do,
+	 sprintName: sprint 1]
+[2018-12-20 12:00:42] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 12:00:42] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 12:01:01] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 12:01:01] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 12:01:10] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:add:130 > The task seg has been asigned to backlog list
+[2018-12-20 12:01:10] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:add:85 > A task has been saved
+[2018-12-20 12:01:10] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 12:01:18] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:add:130 > The task tre has been asigned to backlog list
+[2018-12-20 12:01:18] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:add:85 > A task has been saved
+[2018-12-20 12:01:18] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 12:01:27] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:add:130 > The task pripri has been asigned to backlog list
+[2018-12-20 12:01:27] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:add:85 > A task has been saved
+[2018-12-20 12:01:27] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 12:01:35] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:add:130 > The task sec has been asigned to backlog list
+[2018-12-20 12:01:35] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:add:85 > A task has been saved
+[2018-12-20 12:01:35] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 12:01:46] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:add:130 > The task three has been asigned to backlog list
+[2018-12-20 12:01:46] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:add:85 > A task has been saved
+[2018-12-20 12:01:46] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 12:01:55] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:update:238 > Task with name: sec has been updated
+[2018-12-20 12:01:55] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:update:122 > Updated the following task: 
+SprintTask
+	 [id: 5,
+	 name: sec,
+	 created: Thu Dec 20 12:01:35 ART 2018,
+	 modified: Thu Dec 20 12:01:35 ART 2018,
+	 priority: Medium,
+	 listName: to-do,
+	 estimate: 1]
+[2018-12-20 12:01:55] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 12:02:03] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 12:02:03] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 12:02:14] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 12:02:14] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 12:02:20] DEBUG ar.edu.iua.gespro.web.services.ListRESTController:getId:55 > Trying to get the following list: backlog; Tasks Order By Priority
+[2018-12-20 12:02:24] DEBUG ar.edu.iua.gespro.web.services.ListRESTController:getId:58 > Trying to get the following list: backlog; Tasks Order By Created Date
+[2018-12-20 12:02:31] DEBUG ar.edu.iua.gespro.web.services.ListRESTController:getId:55 > Trying to get the following list: backlog; Tasks Order By Priority
+[2018-12-20 12:02:39] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:delete:261 > Task with ID: 4 has been deleted
+[2018-12-20 12:02:39] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:delete:161 > Task has been deleted
+[2018-12-20 12:02:39] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 12:02:43] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 12:02:43] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 12:04:22] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 12:04:22] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 12:04:53] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 12:04:53] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 12:05:54] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 12:05:54] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 12:06:32] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 12:06:32] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 12:06:37] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks, Order By Priority
+[2018-12-20 12:06:39] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:getAll:50 > Getting all Tasks Order By Created Date
+[2018-12-20 12:06:41] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks, Order By Priority
+[2018-12-20 12:07:54] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 12:07:54] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 12:12:07] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 12:12:07] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 12:12:08] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 12:12:08] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 12:16:34] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 12:16:34] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 12:16:38] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 12:16:38] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 12:16:39] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 12:16:39] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 12:16:52] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 12:16:52] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 12:16:52] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 12:16:52] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 12:16:57] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 12:16:57] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 12:53:33] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 12:53:34] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 12:53:45] DEBUG ar.edu.iua.gespro.GesproApplication:run:37 > datasource is HikariDataSource (HikariPool-1)
+[2018-12-20 12:58:27] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 12:58:27] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 13:00:33] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 13:00:33] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 13:00:50] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:update:238 > Task with name: three has been updated
+[2018-12-20 13:00:50] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:update:122 > Updated the following task: 
+SprintTask
+	 [id: 6,
+	 name: three,
+	 created: Thu Dec 20 12:01:47 ART 2018,
+	 modified: Thu Dec 20 12:01:47 ART 2018,
+	 priority: High,
+	 listName: backlog,
+	 estimate: 1]
+[2018-12-20 13:00:50] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 13:01:27] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:update:238 > Task with name: three has been updated
+[2018-12-20 13:01:27] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:update:122 > Updated the following task: 
+SprintTask
+	 [id: 6,
+	 name: three,
+	 created: Thu Dec 20 12:01:47 ART 2018,
+	 modified: Thu Dec 20 13:00:51 ART 2018,
+	 priority: High,
+	 listName: backlog,
+	 estimate: 1]
+[2018-12-20 13:01:27] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 13:02:47] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 13:02:47] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 13:04:06] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 13:04:06] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 13:05:45] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 13:05:45] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 13:06:08] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 13:06:08] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 13:06:09] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 13:06:09] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 13:06:10] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 13:06:10] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 13:06:16] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 13:06:16] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 13:06:17] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 13:06:17] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 13:06:20] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 13:06:20] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 13:06:20] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 13:06:20] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 13:06:24] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 13:06:24] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 13:06:27] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 13:06:27] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 13:06:35] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 13:06:35] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 13:06:54] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 13:06:54] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 13:07:05] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 13:07:05] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 13:07:07] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 13:07:07] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 13:07:18] ERROR ar.edu.iua.gespro.business.impl.TaskBusiness:update:242 > ar.edu.iua.gespro.model.exception.InvalidListNameException
+[2018-12-20 13:07:18] ERROR ar.edu.iua.gespro.web.services.TaskRESTController:update:133 > Http status:406 in update()
+[2018-12-20 13:07:18] ERROR ar.edu.iua.gespro.web.services.TaskRESTController:update:134 > ar.edu.iua.gespro.model.exception.InvalidListNameException: ar.edu.iua.gespro.model.exception.InvalidListNameException
+[2018-12-20 13:07:18] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 13:09:54] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 13:09:54] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 13:09:55] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 13:09:55] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 13:10:23] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 13:10:23] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 13:10:25] DEBUG ar.edu.iua.gespro.web.services.ListRESTController:getId:55 > Trying to get the following list: backlog; Tasks Order By Priority
+[2018-12-20 13:10:27] DEBUG ar.edu.iua.gespro.web.services.ListRESTController:getId:58 > Trying to get the following list: backlog; Tasks Order By Created Date
+[2018-12-20 13:11:16] DEBUG ar.edu.iua.gespro.web.services.ListRESTController:getId:55 > Trying to get the following list: backlog; Tasks Order By Priority
+[2018-12-20 13:11:20] DEBUG ar.edu.iua.gespro.web.services.ListRESTController:getId:58 > Trying to get the following list: backlog; Tasks Order By Created Date
+[2018-12-20 13:16:31] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 13:16:34] DEBUG ar.edu.iua.gespro.GesproApplication:run:37 > datasource is HikariDataSource (HikariPool-2)
+[2018-12-20 13:16:41] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 13:16:44] DEBUG ar.edu.iua.gespro.GesproApplication:run:37 > datasource is HikariDataSource (HikariPool-3)
+[2018-12-20 13:16:51] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 13:16:51] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:02:45] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 14:02:46] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 14:02:57] DEBUG ar.edu.iua.gespro.GesproApplication:run:37 > datasource is HikariDataSource (HikariPool-1)
+[2018-12-20 14:04:22] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:04:22] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:04:29] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:04:29] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:05:07] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 14:05:07] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 14:05:08] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:05:08] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:11:21] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:11:21] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:12:02] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:12:02] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:13:57] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:13:57] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:14:00] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:14:00] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:14:11] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:14:11] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:14:13] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:14:13] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:16:34] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:16:34] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:17:17] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:17:18] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:18:02] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:18:02] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:18:25] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:18:25] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:20:53] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:20:53] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:20:57] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:21:10] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:21:22] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:21:28] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:21:28] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:21:39] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:23:10] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:23:10] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:23:14] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:26:01] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:26:01] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:26:07] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:26:34] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:26:34] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:26:38] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:26:42] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:26:45] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:26:49] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:28:46] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:28:46] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:28:50] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:30:52] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 14:30:56] DEBUG ar.edu.iua.gespro.GesproApplication:run:37 > datasource is HikariDataSource (HikariPool-2)
+[2018-12-20 14:31:01] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:31:01] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:31:04] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:32:07] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 14:32:07] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 14:32:16] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:update:239 > Task with name: three has been updated
+[2018-12-20 14:32:16] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:update:122 > Updated the following task: 
+SprintTask
+	 [id: 6,
+	 name: three,
+	 created: Thu Dec 20 12:01:47 ART 2018,
+	 modified: Thu Dec 20 13:01:28 ART 2018,
+	 priority: High,
+	 listName: to-do,
+	 estimate: 1]
+[2018-12-20 14:32:16] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 14:33:17] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 14:33:19] DEBUG ar.edu.iua.gespro.GesproApplication:run:37 > datasource is HikariDataSource (HikariPool-3)
+[2018-12-20 14:33:22] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:33:22] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:33:25] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:34:40] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 14:34:43] DEBUG ar.edu.iua.gespro.GesproApplication:run:37 > datasource is HikariDataSource (HikariPool-4)
+[2018-12-20 14:34:44] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:34:44] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:34:49] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:35:32] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 14:35:32] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 14:35:43] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:update:239 > Task with name: tre has been updated
+[2018-12-20 14:35:43] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:update:123 > Updated the following task: 
+SprintTask
+	 [id: 3,
+	 name: tre,
+	 created: Thu Dec 20 12:01:18 ART 2018,
+	 modified: Thu Dec 20 12:01:18 ART 2018,
+	 priority: High,
+	 listName: to-do,
+	 estimate: 1]
+[2018-12-20 14:35:43] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 14:37:19] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 14:37:19] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 14:37:30] DEBUG ar.edu.iua.gespro.GesproApplication:run:37 > datasource is HikariDataSource (HikariPool-1)
+[2018-12-20 14:37:33] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:37:33] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:37:42] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:delete:262 > Task with ID: 3 has been deleted
+[2018-12-20 14:37:42] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:delete:162 > Task has been deleted
+[2018-12-20 14:37:42] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:38:19] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:41:31] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:41:31] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:41:35] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:delete:262 > Task with ID: 6 has been deleted
+[2018-12-20 14:41:35] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:delete:162 > Task has been deleted
+[2018-12-20 14:41:35] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:42:28] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 14:42:28] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 14:42:39] DEBUG ar.edu.iua.gespro.GesproApplication:run:37 > datasource is HikariDataSource (HikariPool-1)
+[2018-12-20 14:42:47] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:42:47] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:45:31] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 14:45:31] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 14:45:40] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:update:239 > Task with name: seg has been updated
+[2018-12-20 14:45:40] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:update:123 > Updated the following task: 
+SprintTask
+	 [id: 2,
+	 name: seg,
+	 created: Thu Dec 20 12:01:10 ART 2018,
+	 modified: Thu Dec 20 12:01:10 ART 2018,
+	 priority: Medium,
+	 listName: to-do,
+	 estimate: 1]
+[2018-12-20 14:45:40] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 14:46:05] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 14:46:09] DEBUG ar.edu.iua.gespro.GesproApplication:run:37 > datasource is HikariDataSource (HikariPool-2)
+[2018-12-20 14:46:25] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:add:130 > The task documentation has been asigned to backlog list
+[2018-12-20 14:46:25] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:add:85 > A task has been saved
+[2018-12-20 14:46:25] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 14:46:32] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:update:239 > Task with name: documentation has been updated
+[2018-12-20 14:46:32] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:update:123 > Updated the following task: 
+SprintTask
+	 [id: 7,
+	 name: documentation,
+	 created: Thu Dec 20 14:46:25 ART 2018,
+	 modified: Thu Dec 20 14:46:25 ART 2018,
+	 priority: Medium,
+	 listName: to-do,
+	 estimate: 1]
+[2018-12-20 14:46:32] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 14:46:41] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:46:41] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:48:54] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 14:48:54] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 14:49:04] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:add:130 > The task dec has been asigned to backlog list
+[2018-12-20 14:49:04] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:add:85 > A task has been saved
+[2018-12-20 14:49:04] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 14:49:15] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:update:239 > Task with name: dec has been updated
+[2018-12-20 14:49:15] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:update:123 > Updated the following task: 
+SprintTask
+	 [id: 8,
+	 name: dec,
+	 created: Thu Dec 20 14:49:04 ART 2018,
+	 modified: Thu Dec 20 14:49:04 ART 2018,
+	 priority: Medium,
+	 listName: to-do,
+	 estimate: 1]
+[2018-12-20 14:49:15] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 14:49:24] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:49:24] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:52:34] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:52:34] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:59:52] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 14:59:52] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 15:03:19] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 15:03:19] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 15:03:31] DEBUG ar.edu.iua.gespro.GesproApplication:run:37 > datasource is HikariDataSource (HikariPool-1)
+[2018-12-20 15:03:39] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 15:03:39] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 15:05:42] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 15:05:42] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 15:05:45] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:update:239 > Task with name: pri has been updated
+[2018-12-20 15:05:45] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:update:123 > Updated the following task: 
+SprintTask
+	 [id: 1,
+	 name: pri,
+	 created: Thu Dec 20 11:59:57 ART 2018,
+	 modified: Thu Dec 20 11:59:57 ART 2018,
+	 priority: Low,
+	 listName: to-do,
+	 estimate: 1]
+[2018-12-20 15:05:45] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 15:07:06] ERROR ar.edu.iua.gespro.model.persistence.SprintListDAO:getOne:138 > List not found. getOne(name)
+[2018-12-20 15:07:06] ERROR ar.edu.iua.gespro.business.impl.ListBusiness:getOne:89 > NFEx in getOne()
+[2018-12-20 15:07:06] ERROR ar.edu.iua.gespro.business.impl.TaskBusiness:update:249 > ar.edu.iua.gespro.model.exception.NotFoundException
+[2018-12-20 15:07:06] ERROR ar.edu.iua.gespro.web.services.TaskRESTController:update:126 > Http status:500 in update()
+[2018-12-20 15:07:06] ERROR ar.edu.iua.gespro.web.services.TaskRESTController:update:127 > ar.edu.iua.gespro.business.BusinessException: ar.edu.iua.gespro.model.exception.NotFoundException
+[2018-12-20 15:07:14] ERROR ar.edu.iua.gespro.business.impl.TaskBusiness:update:243 > ar.edu.iua.gespro.model.exception.InvalidListNameException
+[2018-12-20 15:07:14] ERROR ar.edu.iua.gespro.web.services.TaskRESTController:update:134 > Http status:406 in update()
+[2018-12-20 15:07:14] ERROR ar.edu.iua.gespro.web.services.TaskRESTController:update:135 > ar.edu.iua.gespro.model.exception.InvalidListNameException: ar.edu.iua.gespro.model.exception.InvalidListNameException
+[2018-12-20 15:07:23] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 15:07:23] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 15:07:27] ERROR ar.edu.iua.gespro.model.persistence.SprintListDAO:getOne:138 > List not found. getOne(name)
+[2018-12-20 15:07:27] ERROR ar.edu.iua.gespro.business.impl.ListBusiness:getOne:89 > NFEx in getOne()
+[2018-12-20 15:07:27] ERROR ar.edu.iua.gespro.business.impl.TaskBusiness:update:249 > ar.edu.iua.gespro.model.exception.NotFoundException
+[2018-12-20 15:07:27] ERROR ar.edu.iua.gespro.web.services.TaskRESTController:update:126 > Http status:500 in update()
+[2018-12-20 15:07:27] ERROR ar.edu.iua.gespro.web.services.TaskRESTController:update:127 > ar.edu.iua.gespro.business.BusinessException: ar.edu.iua.gespro.model.exception.NotFoundException
+[2018-12-20 15:07:55] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:delete:262 > Task with ID: 1 has been deleted
+[2018-12-20 15:07:55] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:delete:262 > Task with ID: 2 has been deleted
+[2018-12-20 15:07:55] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:delete:262 > Task with ID: 5 has been deleted
+[2018-12-20 15:07:55] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:delete:262 > Task with ID: 7 has been deleted
+[2018-12-20 15:07:55] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:delete:262 > Task with ID: 8 has been deleted
+[2018-12-20 15:07:55] DEBUG ar.edu.iua.gespro.model.persistence.SprintListDAO:delete:234 > the list: to-do has been deleted
+[2018-12-20 15:07:55] DEBUG ar.edu.iua.gespro.business.impl.ListBusiness:delete:163 > the list: to-do has been deleted
+[2018-12-20 15:07:55] TRACE ar.edu.iua.gespro.web.services.ListRESTController:delete:118 > List has been deleted
+[2018-12-20 15:08:05] DEBUG ar.edu.iua.gespro.model.persistence.SprintListDAO:save:94 > saving the list: to-do
+[2018-12-20 15:08:05] DEBUG ar.edu.iua.gespro.web.services.ListRESTController:add:82 > Adding the following list: 
+SprintList
+	 [id: 3,
+	 name: to-do,
+	 sprintName: sprint 1]
+[2018-12-20 15:08:26] DEBUG ar.edu.iua.gespro.model.persistence.SprintListDAO:save:94 > saving the list: waiting
+[2018-12-20 15:08:26] DEBUG ar.edu.iua.gespro.web.services.ListRESTController:add:82 > Adding the following list: 
+SprintList
+	 [id: 4,
+	 name: waiting,
+	 sprintName: sprint 1]
+[2018-12-20 15:08:36] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 15:08:36] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 15:08:47] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:add:130 > The task Documentation has been asigned to backlog list
+[2018-12-20 15:08:47] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:add:85 > A task has been saved
+[2018-12-20 15:08:47] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 15:08:57] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:add:130 > The task Add css has been asigned to backlog list
+[2018-12-20 15:08:57] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:add:85 > A task has been saved
+[2018-12-20 15:08:57] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 15:09:21] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:add:130 > The task Learn TS has been asigned to backlog list
+[2018-12-20 15:09:21] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:add:85 > A task has been saved
+[2018-12-20 15:09:21] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 15:09:33] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:add:130 > The task Meeting has been asigned to backlog list
+[2018-12-20 15:09:33] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:add:85 > A task has been saved
+[2018-12-20 15:09:33] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 15:10:02] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:add:130 > The task Evaluate progress has been asigned to backlog list
+[2018-12-20 15:10:02] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:add:85 > A task has been saved
+[2018-12-20 15:10:02] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 15:10:36] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:add:130 > The task Run all has been asigned to backlog list
+[2018-12-20 15:10:36] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:add:85 > A task has been saved
+[2018-12-20 15:10:36] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 15:10:42] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 15:10:42] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 15:10:48] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:delete:262 > Task with ID: 10 has been deleted
+[2018-12-20 15:10:48] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:delete:162 > Task has been deleted
+[2018-12-20 15:10:48] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 15:11:03] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:add:130 > The task Add css has been asigned to backlog list
+[2018-12-20 15:11:03] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:add:85 > A task has been saved
+[2018-12-20 15:11:03] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 15:11:08] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:update:239 > Task with name: Meeting has been updated
+[2018-12-20 15:11:08] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:update:123 > Updated the following task: 
+SprintTask
+	 [id: 12,
+	 name: Meeting,
+	 created: Thu Dec 20 15:09:34 ART 2018,
+	 modified: Thu Dec 20 15:09:34 ART 2018,
+	 priority: High,
+	 listName: to-do,
+	 estimate: 1]
+[2018-12-20 15:11:08] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 15:11:16] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:update:239 > Task with name: Add css has been updated
+[2018-12-20 15:11:16] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:update:123 > Updated the following task: 
+SprintTask
+	 [id: 15,
+	 name: Add css,
+	 created: Thu Dec 20 15:11:03 ART 2018,
+	 modified: Thu Dec 20 15:11:03 ART 2018,
+	 priority: Low,
+	 listName: to-do,
+	 estimate: 3]
+[2018-12-20 15:11:16] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 15:11:23] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:update:239 > Task with name: Meeting has been updated
+[2018-12-20 15:11:23] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:update:123 > Updated the following task: 
+SprintTask
+	 [id: 12,
+	 name: Meeting,
+	 created: Thu Dec 20 15:09:34 ART 2018,
+	 modified: Thu Dec 20 15:11:09 ART 2018,
+	 priority: High,
+	 listName: waiting,
+	 estimate: 1]
+[2018-12-20 15:11:23] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 15:11:27] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:update:239 > Task with name: Meeting has been updated
+[2018-12-20 15:11:27] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:update:123 > Updated the following task: 
+SprintTask
+	 [id: 12,
+	 name: Meeting,
+	 created: Thu Dec 20 15:09:34 ART 2018,
+	 modified: Thu Dec 20 15:11:23 ART 2018,
+	 priority: High,
+	 listName: to-do,
+	 estimate: 1]
+[2018-12-20 15:11:27] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 15:15:08] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 15:15:08] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 15:15:42] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 15:15:42] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 15:16:30] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 15:16:30] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 15:19:08] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 15:19:08] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 15:19:39] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 15:19:39] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 15:20:13] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 15:20:13] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 15:22:58] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 15:22:58] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:36 > Getting all task lists
+[2018-12-20 15:22:59] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 15:22:59] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:44 > Getting all Tasks
+[2018-12-20 15:24:52] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 15:24:53] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 15:25:04] DEBUG ar.edu.iua.gespro.GesproApplication:run:37 > datasource is HikariDataSource (HikariPool-1)
+[2018-12-20 15:25:45] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 15:25:49] DEBUG ar.edu.iua.gespro.GesproApplication:run:37 > datasource is HikariDataSource (HikariPool-2)
+[2018-12-20 15:29:12] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 15:29:15] DEBUG ar.edu.iua.gespro.GesproApplication:run:37 > datasource is HikariDataSource (HikariPool-3)
+[2018-12-20 15:29:25] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 15:29:28] DEBUG ar.edu.iua.gespro.GesproApplication:run:37 > datasource is HikariDataSource (HikariPool-4)
+[2018-12-20 15:29:52] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 15:29:52] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 15:31:30] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 15:31:32] DEBUG ar.edu.iua.gespro.GesproApplication:run:37 > datasource is HikariDataSource (HikariPool-5)
+[2018-12-20 15:31:36] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:45 > Getting all Tasks
+[2018-12-20 15:31:36] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:45 > Getting all Tasks
+[2018-12-20 15:32:18] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:45 > Getting all Tasks
+[2018-12-20 15:32:33] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:45 > Getting all Tasks
+[2018-12-20 15:32:33] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:45 > Getting all Tasks
+[2018-12-20 15:32:41] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:45 > Getting all Tasks
+[2018-12-20 15:46:07] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:45 > Getting all Tasks
+[2018-12-20 15:46:07] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:45 > Getting all Tasks
+[2018-12-20 15:46:32] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:delete:262 > Task with ID: 14 has been deleted
+[2018-12-20 15:46:32] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:delete:165 > Task has been deleted
+[2018-12-20 15:46:54] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:add:130 > The task una has been asigned to backlog list
+[2018-12-20 15:46:54] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:add:87 > A task has been saved
+[2018-12-20 15:46:54] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:45 > Getting all Tasks
+[2018-12-20 15:47:02] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:add:130 > The task dos has been asigned to backlog list
+[2018-12-20 15:47:02] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:add:87 > A task has been saved
+[2018-12-20 15:47:02] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:45 > Getting all Tasks
+[2018-12-20 15:47:06] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:delete:262 > Task with ID: 16 has been deleted
+[2018-12-20 15:47:06] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:delete:165 > Task has been deleted
+[2018-12-20 15:47:08] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:delete:262 > Task with ID: 17 has been deleted
+[2018-12-20 15:47:08] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:delete:165 > Task has been deleted
+[2018-12-20 15:47:11] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 15:47:11] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 15:48:18] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 15:48:21] DEBUG ar.edu.iua.gespro.GesproApplication:run:37 > datasource is HikariDataSource (HikariPool-6)
+[2018-12-20 15:48:29] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 15:48:29] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 15:48:41] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:45 > Getting all Tasks
+[2018-12-20 15:48:41] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:45 > Getting all Tasks
+[2018-12-20 15:48:48] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 15:48:48] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 15:48:52] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:45 > Getting all Tasks
+[2018-12-20 15:48:52] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:45 > Getting all Tasks
+[2018-12-20 15:49:37] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:45 > Getting all Tasks
+[2018-12-20 15:49:37] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:45 > Getting all Tasks
+[2018-12-20 15:49:38] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 15:49:38] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 15:49:57] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 15:49:57] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 15:49:58] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:45 > Getting all Tasks
+[2018-12-20 15:49:58] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:45 > Getting all Tasks
+[2018-12-20 15:50:01] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 15:50:01] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 15:50:04] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:45 > Getting all Tasks
+[2018-12-20 15:50:04] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:45 > Getting all Tasks
+[2018-12-20 15:50:05] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 15:50:05] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 15:52:06] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 15:52:06] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 15:52:47] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 15:52:47] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 15:53:14] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 15:53:14] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 15:53:35] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 15:53:35] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 15:54:13] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 15:54:13] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 15:55:46] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 15:55:46] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 15:56:38] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 15:56:38] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 15:56:42] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 15:56:42] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 15:56:59] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 15:56:59] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 15:57:17] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:45 > Getting all Tasks
+[2018-12-20 15:57:17] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:45 > Getting all Tasks
+[2018-12-20 15:57:24] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:45 > Getting all Tasks
+[2018-12-20 15:57:34] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 15:57:34] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 15:59:28] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 15:59:30] DEBUG ar.edu.iua.gespro.GesproApplication:run:37 > datasource is HikariDataSource (HikariPool-7)
+[2018-12-20 15:59:55] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 15:59:57] DEBUG ar.edu.iua.gespro.GesproApplication:run:37 > datasource is HikariDataSource (HikariPool-8)
+[2018-12-20 16:04:22] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 16:04:23] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 16:04:34] DEBUG ar.edu.iua.gespro.GesproApplication:run:37 > datasource is HikariDataSource (HikariPool-1)
+[2018-12-20 16:04:50] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 16:04:50] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 16:04:57] ERROR ar.edu.iua.gespro.business.impl.TaskBusiness:update:249 > ar.edu.iua.gespro.model.exception.InvalidListNameException
+[2018-12-20 16:04:57] ERROR ar.edu.iua.gespro.web.services.TaskRESTController:update:139 > Http status:406 in update()
+[2018-12-20 16:04:57] ERROR ar.edu.iua.gespro.web.services.TaskRESTController:update:140 > ar.edu.iua.gespro.model.exception.InvalidListNameException: ar.edu.iua.gespro.model.exception.InvalidListNameException
+[2018-12-20 16:05:20] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:update:245 > Task with name: Meeting has been updated
+[2018-12-20 16:05:20] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:update:128 > Updated the following task: 
+SprintTask
+	 [id: 12,
+	 name: Meeting,
+	 created: Thu Dec 20 15:09:34 ART 2018,
+	 modified: Thu Dec 20 15:11:27 ART 2018,
+	 priority: High,
+	 listName: waiting,
+	 estimate: 1]
+[2018-12-20 16:05:20] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 16:05:23] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:update:245 > Task with name: Meeting has been updated
+[2018-12-20 16:05:23] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:update:128 > Updated the following task: 
+SprintTask
+	 [id: 12,
+	 name: Meeting,
+	 created: Thu Dec 20 15:09:34 ART 2018,
+	 modified: Thu Dec 20 16:05:20 ART 2018,
+	 priority: High,
+	 listName: to-do,
+	 estimate: 1]
+[2018-12-20 16:05:23] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 16:05:27] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:update:245 > Task with name: Meeting has been updated
+[2018-12-20 16:05:27] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:update:128 > Updated the following task: 
+SprintTask
+	 [id: 12,
+	 name: Meeting,
+	 created: Thu Dec 20 15:09:34 ART 2018,
+	 modified: Thu Dec 20 16:05:24 ART 2018,
+	 priority: High,
+	 listName: waiting,
+	 estimate: 1]
+[2018-12-20 16:05:27] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 16:05:35] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:update:245 > Task with name: Meeting has been updated
+[2018-12-20 16:05:35] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:update:128 > Updated the following task: 
+SprintTask
+	 [id: 12,
+	 name: Meeting,
+	 created: Thu Dec 20 15:09:34 ART 2018,
+	 modified: Thu Dec 20 16:05:28 ART 2018,
+	 priority: High,
+	 listName: to-do,
+	 estimate: 1]
+[2018-12-20 16:05:35] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 16:08:47] DEBUG ar.edu.iua.gespro.model.persistence.SprintListDAO:save:94 > saving the list: in progress
+[2018-12-20 16:08:47] DEBUG ar.edu.iua.gespro.web.services.ListRESTController:add:84 > Adding the following list: 
+SprintList
+	 [id: 5,
+	 name: in progress,
+	 sprintName: sprint 1]
+[2018-12-20 16:08:52] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 16:08:52] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 16:09:35] DEBUG ar.edu.iua.gespro.model.persistence.SprintListDAO:save:94 > saving the list: done
+[2018-12-20 16:09:35] DEBUG ar.edu.iua.gespro.web.services.ListRESTController:add:84 > Adding the following list: 
+SprintList
+	 [id: 6,
+	 name: done,
+	 sprintName: sprint 1]
+[2018-12-20 16:09:40] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 16:09:40] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 16:09:46] DEBUG ar.edu.iua.gespro.model.persistence.SprintListDAO:delete:234 > the list: done has been deleted
+[2018-12-20 16:09:46] DEBUG ar.edu.iua.gespro.business.impl.ListBusiness:delete:163 > the list: done has been deleted
+[2018-12-20 16:09:46] TRACE ar.edu.iua.gespro.web.services.ListRESTController:delete:121 > List has been deleted
+[2018-12-20 16:10:25] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:add:130 > The task Meeting dev team has been asigned to backlog list
+[2018-12-20 16:10:25] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:add:89 > A task has been saved
+[2018-12-20 16:10:25] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 16:10:47] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks
+[2018-12-20 16:10:47] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks
+[2018-12-20 16:10:50] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:getAll:53 > Getting all Tasks Order By Created Date
+[2018-12-20 16:10:52] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:50 > Getting all Tasks, Order By Priority
+[2018-12-20 16:11:40] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks
+[2018-12-20 16:11:40] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks
+[2018-12-20 16:11:46] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 16:11:46] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 16:12:08] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 16:12:11] DEBUG ar.edu.iua.gespro.GesproApplication:run:37 > datasource is HikariDataSource (HikariPool-2)
+[2018-12-20 16:12:48] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks
+[2018-12-20 16:12:48] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks
+[2018-12-20 16:13:04] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:add:130 > The task Make all estimations has been asigned to backlog list
+[2018-12-20 16:13:04] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:add:89 > A task has been saved
+[2018-12-20 16:13:04] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks
+[2018-12-20 16:55:54] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 16:55:54] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 16:56:05] DEBUG ar.edu.iua.gespro.GesproApplication:run:37 > datasource is HikariDataSource (HikariPool-1)
+[2018-12-20 16:57:03] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 16:57:03] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 16:57:05] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks
+[2018-12-20 16:57:05] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks
+[2018-12-20 16:57:06] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 16:57:06] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 16:57:08] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks
+[2018-12-20 16:57:08] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks
+[2018-12-20 16:57:12] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 16:57:12] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 16:57:14] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks
+[2018-12-20 16:57:14] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks
+[2018-12-20 16:57:23] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 16:57:23] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 16:57:24] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks
+[2018-12-20 16:57:24] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks
+[2018-12-20 16:58:09] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 16:58:09] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 16:58:10] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks
+[2018-12-20 16:58:10] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks
+[2018-12-20 16:58:12] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 16:58:12] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 16:58:12] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks
+[2018-12-20 16:58:12] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks
+[2018-12-20 16:58:14] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 16:58:14] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 16:58:15] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks
+[2018-12-20 16:58:15] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks
+[2018-12-20 16:58:44] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 16:58:44] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 16:58:45] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks
+[2018-12-20 16:58:45] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks
+[2018-12-20 16:58:48] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks
+[2018-12-20 16:58:48] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks
+[2018-12-20 16:58:50] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 16:58:50] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 16:58:51] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks
+[2018-12-20 16:58:51] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks
+[2018-12-20 16:59:06] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks
+[2018-12-20 16:59:06] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks
+[2018-12-20 16:59:07] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 16:59:07] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 16:59:08] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks
+[2018-12-20 16:59:08] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks
+[2018-12-20 16:59:47] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks
+[2018-12-20 16:59:47] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks
+[2018-12-20 16:59:48] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 16:59:48] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 16:59:49] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks
+[2018-12-20 16:59:49] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks
+[2018-12-20 17:08:47] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 17:08:47] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 17:08:57] DEBUG ar.edu.iua.gespro.GesproApplication:run:37 > datasource is HikariDataSource (HikariPool-1)
+[2018-12-20 17:20:11] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 17:20:11] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 17:21:11] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 17:21:11] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app
+[2018-12-20 17:21:26] DEBUG ar.edu.iua.gespro.GesproApplication:run:37 > datasource is HikariDataSource (HikariPool-1)
+[2018-12-20 17:26:54] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks
+[2018-12-20 17:26:54] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks
+[2018-12-20 17:27:03] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:50 > Getting all Tasks, Order By Priority
+[2018-12-20 17:27:07] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:getAll:53 > Getting all Tasks Order By Created Date
+[2018-12-20 17:27:13] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 17:27:13] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 17:27:34] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks
+[2018-12-20 17:27:34] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks
+[2018-12-20 17:27:50] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:add:130 > The task Final has been asigned to backlog list
+[2018-12-20 17:27:50] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:add:89 > A task has been saved
+[2018-12-20 17:27:50] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:getAll:47 > Getting all Tasks
+[2018-12-20 17:27:55] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 17:27:55] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 17:28:10] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:add:130 > The task Final2 has been asigned to backlog list
+[2018-12-20 17:28:10] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:add:89 > A task has been saved
+[2018-12-20 17:28:10] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 17:28:19] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:update:245 > Task with name: Final2 has been updated
+[2018-12-20 17:28:19] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:update:127 > Updated the following task: 
+SprintTask
+	 [id: 21,
+	 name: Final2,
+	 created: Thu Dec 20 17:28:11 ART 2018,
+	 modified: Thu Dec 20 17:28:11 ART 2018,
+	 priority: High,
+	 listName: backlog,
+	 estimate: 7]
+[2018-12-20 17:28:19] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 17:29:15] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:delete:268 > Task with ID: 21 has been deleted
+[2018-12-20 17:29:15] TRACE ar.edu.iua.gespro.web.services.TaskRESTController:delete:167 > Task has been deleted
+[2018-12-20 17:29:15] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 17:29:21] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:update:245 > Task with name: Final has been updated
+[2018-12-20 17:29:21] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:update:127 > Updated the following task: 
+SprintTask
+	 [id: 20,
+	 name: Final,
+	 created: Thu Dec 20 17:27:51 ART 2018,
+	 modified: Thu Dec 20 17:27:51 ART 2018,
+	 priority: Low,
+	 listName: to-do,
+	 estimate: 2]
+[2018-12-20 17:29:21] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 17:29:25] ERROR ar.edu.iua.gespro.business.impl.TaskBusiness:update:249 > ar.edu.iua.gespro.model.exception.InvalidListNameException
+[2018-12-20 17:29:25] ERROR ar.edu.iua.gespro.web.services.TaskRESTController:update:138 > Http status:406 in update()
+[2018-12-20 17:29:25] ERROR ar.edu.iua.gespro.web.services.TaskRESTController:update:139 > ar.edu.iua.gespro.model.exception.InvalidListNameException: ar.edu.iua.gespro.model.exception.InvalidListNameException
+[2018-12-20 17:29:30] DEBUG ar.edu.iua.gespro.business.impl.TaskBusiness:update:245 > Task with name: Final has been updated
+[2018-12-20 17:29:30] DEBUG ar.edu.iua.gespro.web.services.TaskRESTController:update:127 > Updated the following task: 
+SprintTask
+	 [id: 20,
+	 name: Final,
+	 created: Thu Dec 20 17:27:51 ART 2018,
+	 modified: Thu Dec 20 17:29:21 ART 2018,
+	 priority: Low,
+	 listName: waiting,
+	 estimate: 2]
+[2018-12-20 17:29:30] TRACE ar.edu.iua.gespro.web.services.ListRESTController:getAll:37 > Getting all task lists
+[2018-12-20 17:29:40] DEBUG ar.edu.iua.gespro.web.services.ListRESTController:getId:56 > Trying to get the following list: backlog; Tasks Order By Priority
+[2018-12-20 17:29:42] DEBUG ar.edu.iua.gespro.web.services.ListRESTController:getId:59 > Trying to get the following list: backlog; Tasks Order By Created Date
+[2018-12-20 17:29:49] DEBUG ar.edu.iua.gespro.web.services.ListRESTController:getId:56 > Trying to get the following list: to-do; Tasks Order By Priority
+[2018-12-20 17:30:53] ERROR ar.edu.iua.gespro.business.impl.TaskBusiness:update:249 > ar.edu.iua.gespro.model.exception.InvalidListNameException
+[2018-12-20 17:30:53] ERROR ar.edu.iua.gespro.web.services.TaskRESTController:update:138 > Http status:406 in update()
+[2018-12-20 17:30:53] ERROR ar.edu.iua.gespro.web.services.TaskRESTController:update:139 > ar.edu.iua.gespro.model.exception.InvalidListNameException: ar.edu.iua.gespro.model.exception.InvalidListNameException
+[2018-12-20 17:37:26] INFO  ar.edu.iua.gespro.GesproApplication:main:26 > Start the app

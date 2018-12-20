@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -74,6 +75,7 @@ public class ListRESTController {
 
 	// Add a list
 	@RequestMapping(value = { "", "/" }, method = RequestMethod.POST, produces = "application/json")
+	@PreAuthorize("hasRole('ROLE_LEADER')")
 	public ResponseEntity<SprintList> add(@RequestBody SprintList sprintList) {
 		try {
 			SprintList sl = listBusiness.add(sprintList);
@@ -99,6 +101,7 @@ public class ListRESTController {
 	
 	// Delete a list with the name or ID
 	@RequestMapping(value = { "", "/" }, method = RequestMethod.DELETE, produces = "application/json")
+	@PreAuthorize("hasRole('ROLE_LEADER')")
 	public ResponseEntity<SprintList> delete(
 			@RequestParam(required = false, value = "id", defaultValue = "0") Integer id,
 			@RequestParam(required = false, value = "name", defaultValue = "") String name) {

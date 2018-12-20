@@ -16,36 +16,36 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(Constants.URL_TEST)
 public class TestRestController extends BaseRestController{
 
-	@GetMapping("/admin")
-	@PreAuthorize("hasRole('ROLE_ADMIN')")
-	public ResponseEntity<String> onlyAdmin() {
-		return new ResponseEntity<String>("Servicio admin", HttpStatus.OK);
+	@GetMapping("/leader")
+	@PreAuthorize("hasRole('ROLE_LEADER')")
+	public ResponseEntity<String> onlyLeader() {
+		return new ResponseEntity<String>("Service for leader", HttpStatus.OK);
 	}
 
-	@GetMapping("/user")
-	@PreAuthorize("hasRole('ROLE_USER')")
-	public ResponseEntity<String> onlyUser() {
-		return new ResponseEntity<String>("Servicio user", HttpStatus.OK);
+	@GetMapping("/dev")
+	@PreAuthorize("hasRole('ROLE_DEV')")
+	public ResponseEntity<String> onlyDev() {
+		return new ResponseEntity<String>("Service for dev", HttpStatus.OK);
 	}
 	
-	@GetMapping("/adminoruser")
-	@PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_USER')")
-	public ResponseEntity<String> adminOrUser() {
-		return new ResponseEntity<String>("Servicio admin or user", HttpStatus.OK);
+	@GetMapping("/leaderordev")
+	@PreAuthorize("hasRole('ROLE_LEADER') or hasRole('ROLE_DEV')")
+	public ResponseEntity<String> leaderOrdev() {
+		return new ResponseEntity<String>("Service for leader or dev", HttpStatus.OK);
 	}
 	
 	@PreAuthorize("#username == authentication.principal.username")
-	@GetMapping("/misroles")
+	@GetMapping("/myroles")
 	public ResponseEntity<String> getMyRoles(@RequestParam("username")  String username) {
 		return new ResponseEntity<String>(getUserPrincipal().getAuthorities().toString(), HttpStatus.OK);
 	}
 
-	@GetMapping("/variable")
-	public ResponseEntity<String> onlyAdminProgramado(HttpServletRequest request) {
-		if (request.isUserInRole("ROLE_ADMIN")) {
-			return new ResponseEntity<String>("Servicio dinámico para ADMIN", HttpStatus.OK);
+	@GetMapping("/var")
+	public ResponseEntity<String> onlyLeaderPro(HttpServletRequest request) {
+		if (request.isUserInRole("ROLE_LEADER")) {
+			return new ResponseEntity<String>("Dinamic Service for LEADER", HttpStatus.OK);
 		} else {
-			return new ResponseEntity<String>("Servicio dinámico para USER", HttpStatus.OK);
+			return new ResponseEntity<String>("Dinamic Service for DEV", HttpStatus.OK);
 		}
 		
 	}

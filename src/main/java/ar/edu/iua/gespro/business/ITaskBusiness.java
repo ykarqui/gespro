@@ -19,7 +19,7 @@ public interface ITaskBusiness {
 	public List<SprintTask> orderByPriority(List<SprintTask> tasks);
 	public SprintTask add(SprintTask sprintTask) throws BusinessException, NotFoundException, ListNotFoundException, TaskNameAlreadyExist,EmptyTaskException, InvalidInputException;
 	public SprintTask getOne(String name) throws BusinessException, NotFoundException;
-	public SprintTask update(SprintTask sprintTask) throws BusinessException, NotFoundException, InvalidListNameException, InvalidInputException;
+	public SprintTask update(SprintTask sprintTask, boolean leader) throws BusinessException, NotFoundException, InvalidListNameException, InvalidInputException;
 	public void delete(SprintTask sprintTask) throws BusinessException, NotFoundException;
 
 }

@@ -15,7 +15,4 @@ public final class Constants {
 	
 	public static final String URL_LOGINOK = "/loginok";
 	public static final String URL_AUTH_INFO =  "/authinfo";
-	
-	
-	public static final String URL_WEBSOCKET_ENPOINT =  URL_BASE + "/ws";
 }

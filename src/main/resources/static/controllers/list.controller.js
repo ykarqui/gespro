@@ -1,5 +1,5 @@
 angular.module('gpro').controller('ListController', 
-		function($scope, $http, $log, listServices, taskServices, $uibModal, $document){
+		function($scope, $http, $log, listServices, taskServices, $uibModal, $document, $rootScope){
 			$scope.title = "LISTS";
 			$scope.est=false;
 			$scope.data=[];
@@ -10,6 +10,8 @@ angular.module('gpro').controller('ListController',
 			$scope.date = new Date();
 		    $scope.listas=[];	
 			$scope.tareas={};
+			
+			$rootScope.authInfo(true);
 			
 			//---------------------------MODAL CONTROL-----------------------------
 			var $ctrl = this;
@@ -172,6 +174,22 @@ angular.module('gpro').controller('ListController',
 		                	alert("We can't order the table now.")
 		                });
 		    };
+		    
+		    
+			$scope.changeListTask=function(task, list, newList){
+				var l = {};
+				l.name = newList;
+				task.listName=l;
+				// va al servicio UPDATE a traves de task.service.js
+				taskServices.update(task, task.id).then(
+						function(resp){
+							if(resp.status==200){
+								$scope.refresh();
+							}
+						}, function(err){
+							alert("Invalid List");
+						});
+			};
 			
 			
 			$scope.refresh();

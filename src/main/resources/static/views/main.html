@@ -5,11 +5,55 @@
 <title>GESPRO</title>
 </head>
 <body>
-	<h1>{{titulo}}</h1>
-	
-	<ul>
-		<li><a ng-click="relocate('list')">Listas</a></li>
-		<li><a ng-click="relocate('task')">Tareas</a></li>
-	</ul>
+	<div class="container-fluid">
+		<div class="alert alert-success" role="alert">
+			<h2>
+				Introduction
+			</h2>
+			<h3>
+			Get started with GESPRO. <br/>
+			GESPRO lets you work more collaboratively and get more done.
+			</h3>
+			<h4>
+			Enable you to organize and prioritize your projects in a fun, flexible and rewarding way.
+			</h4>
+		</div>
+		<div class="alert alert-primary" role="alert">
+			<h2>
+				Manage your tasks
+			</h2>
+		</div>
+			You only have to add the following items:
+			<ul>
+				<li> Task name</li>
+				<li> Estimation in days [at the beginning the estimated is optional while the task where in BACKLOG list ]</li>
+				<li> Priority</li>
+			</ul>
+		
+		<div class="alert alert-primary" role="alert">
+		<h2>
+			Manage your lists
+		</h2>
+		</div>
+			You only have to add the following items:
+			<ul>
+				<li> List name [Valid values: BACKLOG, TO-DO, IN PROGRESS, WAITING, DONE]</li>
+				<li> Sprint name</li>
+			</ul>
+			Also you can delete the list, with all the task inside.<br/>
+			You can delete any task<br/>
+			Or modify the estimation if it's in BACKLOG<br/>
+			If you want to move the task to another list, you can do it from task or list <br/>
+			on the navbar. 
+			Possible list changes:
+			<ul>
+				<li> BACKLOG <i class="fas fa-arrow-circle-right"></i> to-do </li>
+				<li> TO-DO <i class="fas fa-arrow-circle-right"></i> in progress, waiting, done</li>
+				<li> IN PROGRESS <i class="fas fa-arrow-circle-right"></i> waiting, to-do, done</li>
+				<li> WAITING <i class="fas fa-arrow-circle-right"></i> in progress, to-do, done</li>
+				<li> DONE <i class="fas fa-arrow-circle-right"></i> can't move it</li>
+			</ul>
+
+	</div>
 </body>
 </html>

@@ -43,8 +43,25 @@
         </div>
     </script>
 
-	<h1>{{title}}  <button type="button" class="btn btn-primary" ng-click="isCollapsed =! isCollapsed">Add a list</button></h1>
-
+	<h1 style="text-align: center;">{{title}}  <button type="button" class="btn btn-primary" ng-click="isCollapsed =! isCollapsed">Add a list</button></h1>
+	
+	<!--  -->
+	<div uib-collapse="isCollapsed">
+		<div class="well well-lg">
+		<table>
+			<tr align="center"> <td>
+			NAME </td><td> <input type="text" ng-model="instance.name" placeholder="List name"/></td>
+			</tr>
+			<tr> <td>
+			SPRINT </td><td> <input type="text" ng-model="instance.sprintName" placeholder="Sprint list name"/></td>
+			</tr>
+			<tr> <td colspan="2">
+			<button ng-show="showBtnSave()" class="btn btn-primary"
+				ng-click="addList()">GUARDAR</button></td></tr>
+		</table>
+		</div>
+	</div>
+	
 	<pre>
 	<table>
 		<tr>
@@ -53,23 +70,6 @@
 		</tr>
 	</table>
  	</pre>
-	
-	<!--  -->
-	<div uib-collapse="isCollapsed">
-		<div class="well well-lg">
-		<table>
-			<tr> <td>
-			NAME </td><td> <input type="text" ng-model="instance.name" placeholder="List name" required/></td>
-			</tr>
-			<tr> <td>
-			SPRINT </td><td> <input type="text" ng-model="instance.sprintName" placeholder="Sprint list name" required/></td>
-			</tr>
-			<tr> <td colspan="2">
-			<button ng-show="showBtnSave()" class="btn btn-primary"
-				ng-click="addList()">GUARDAR</button></td></tr>
-		</table>
-		</div>
-	</div>
 
 
 	<table st-table="rowCollection" class="table table-striped"
@@ -85,7 +85,12 @@
 				<th>Actions</th>
 			</tr>
 		</thead>
-		<tbody>
+		<tbody ng-show="tasks.length==0">
+			<tr>
+				<td colspan="7" style="text-align: center; color: red; font-style: italic;">no tasks asigned</td>
+			</tr>
+		</tbody>
+		<tbody ng-hide="tasks.length==0">
 			<tr ng-repeat="t in tasks">
 				<td>{{ $index + 1 }}</td>
 				<td>{{t.name}}</td>
@@ -101,11 +106,20 @@
 				<td>{{t.priority}}</td>
 				<td>{{t.created | changeDate | date:'MMMM dd, yyyy HH:mm:ss'}}</td>
 				<td>{{t.modified | changeDate | date:'MMMM dd, yyyy HH:mm:ss'}}</td>
-				<td><i class="fas fa-exchange-alt" title="Move to another list"></i> 
+				<td>
+					<li class="dropdown">
+      					<a class="dropdown-toggle" data-toggle="dropdown">
+      					<i class="fas fa-exchange-alt" title="Move to another list"></i>
+      					<span class="caret"></span></a>
+      					<ul class="dropdown-menu">
+        					<li><a ng-click="changeListTask(t, l, 'backlog')">backlog</a></li>
+					        <li><a ng-click="changeListTask(t, l, 'to-do')">to-do</a></li>
+					        <li><a ng-click="changeListTask(t, l, 'in progress')">in progress</a></li>  
+					        <li><a ng-click="changeListTask(t, l, 'waiting')">waiting</a></li>
+					        <li><a ng-click="changeListTask(t, l, 'done')">done</a></li>                     
+					    </ul> 
+					</li>
 					<i class="fas fa-trash-alt" ng-click="deleteTask(t)"  title="Delete this task"></i></td>
-			</tr>
-			<tr > 
-				<td colspan="1" style="font-style:italic">Move the task here </td> 
 			</tr>
 		</tbody>
 		<tfoot>

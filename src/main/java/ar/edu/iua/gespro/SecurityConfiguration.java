@@ -3,6 +3,7 @@ package ar.edu.iua.gespro;
 import javax.sql.DataSource;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -26,7 +27,8 @@ import ar.edu.iua.gespro.web.services.Constants;
 		securedEnabled = true, 
 		jsr250Enabled = true) 
 public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
-
+	
+	@Qualifier("persistenceUserDetailService")
 	@Autowired
 	private UserDetailsService userDetailService;
 
@@ -51,7 +53,6 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 		// http.httpBasic();
-		System.out.println("Entro al Security papuh");
 
 		String[] resources = recursosEstaticos.split(",");
 

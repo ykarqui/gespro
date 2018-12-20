@@ -198,7 +198,8 @@ public class TaskBusiness implements ITaskBusiness {
 
 	// Update a task
 	@Override
-	public SprintTask update(SprintTask sprintTask) throws BusinessException, NotFoundException, InvalidListNameException, InvalidInputException {
+	public SprintTask update(SprintTask sprintTask, boolean leader) throws BusinessException, NotFoundException, InvalidListNameException, InvalidInputException {
+		
 		Optional<SprintTask> st = taskDAO.findById(sprintTask.getId());
 		if (!st.isPresent()) {
 			logger.error(
@@ -216,13 +217,19 @@ public class TaskBusiness implements ITaskBusiness {
 				st.get().setEstimate(sprintTask.getEstimate());
 			}
 			
-			// Checkea si se modifica la lista a la que pertenece
 			HashMap<String, String[]> sourceDestination = new HashMap<String, String[]>();
-			sourceDestination.put("backlog", new String[]{"to-do", "backlog"});
 			sourceDestination.put("to-do", new String[]{"in progress", "waiting", "done"});
 			sourceDestination.put("in progress", new String[]{"waiting", "to-do", "done"});
 			sourceDestination.put("waiting", new String[]{"in progress", "to-do", "done"});
 			sourceDestination.put("done", new String[]{});
+			
+			if(leader) {
+				// Checkea si se modifica la lista a la que pertenece para LEADER
+				sourceDestination.put("backlog", new String[]{"to-do", "backlog"});
+			}else {
+				// Checkea si se modifica la lista a la que pertenece para DEV
+				sourceDestination.put("backlog", new String[]{});
+			}
 
 	        if (Arrays.asList(sourceDestination.get(st.get().getListName().getName().toLowerCase()))
 	        		.contains(sprintTask.getListName().getName().toLowerCase())){

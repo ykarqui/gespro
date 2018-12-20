@@ -2,6 +2,8 @@ package ar.edu.iua.gespro.web.services;
 
 import java.util.List;
 
+import javax.servlet.http.HttpServletRequest;
+
 import org.apache.http.HttpResponse;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.log4j.Logger;
@@ -9,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -79,6 +82,7 @@ public class TaskRESTController {
 
 	// Save a task
 	@RequestMapping(value = { "", "/" }, method = RequestMethod.POST, produces = "application/json")
+	@PreAuthorize("hasRole('ROLE_LEADER')")
 	public ResponseEntity<SprintTask> add(@RequestBody SprintTask sprintTask) {
 		try {
 			SprintTask st = taskBusiness.add(sprintTask);
@@ -115,10 +119,11 @@ public class TaskRESTController {
 
 	// Update a task
 	@RequestMapping(value = { "/{id}" }, method = RequestMethod.PUT, produces = "application/json")
-	public ResponseEntity<SprintTask> update(@PathVariable("id") int id, @RequestBody SprintTask sprintTask) {
+	public ResponseEntity<SprintTask> update(
+			@PathVariable("id") int id, @RequestBody SprintTask sprintTask, HttpServletRequest request) {
 		try {
 			sprintTask.setId(id);
-			taskBusiness.update(sprintTask);
+			taskBusiness.update(sprintTask, request.isUserInRole("ROLE_LEADER"));
 			logger.debug("Updated the following task: \n" + sprintTask);
 			return new ResponseEntity<SprintTask>(HttpStatus.OK);
 		} catch (BusinessException e) {
@@ -142,6 +147,7 @@ public class TaskRESTController {
 
 	// Delete a task with the ID or name
 	@RequestMapping(value = { "", "/" }, method = RequestMethod.DELETE, produces = "application/json")
+	@PreAuthorize("hasRole('ROLE_LEADER')")
 	public ResponseEntity<SprintTask> delete(
 			@RequestParam(required = false, value = "id", defaultValue = "0") Integer id,
 			@RequestParam(required = false, value = "name", defaultValue = "") String name) {

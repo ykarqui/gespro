@@ -14,7 +14,6 @@ public class BaseRestController {
 	protected User getUserPrincipal() {
 		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
 		User user = (User) auth.getPrincipal();
-		System.out.println("User is " + user.getUsername() + " and his password is " + user.getPassword());
 		return user;
 	}
 
@@ -28,6 +27,7 @@ public class BaseRestController {
 		for (GrantedAuthority g : u.getAuthorities()) {
 			r.add(g.getAuthority());
 		}
+		System.out.println("user to json");
 		o.put("roles", r);
 		return o;
 	}

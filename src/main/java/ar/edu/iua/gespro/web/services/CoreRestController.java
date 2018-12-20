@@ -14,12 +14,10 @@ public class CoreRestController extends BaseRestController {
 		return ResponseEntity.status(HttpStatus.UNAUTHORIZED).build();
 	}
 	
-	
 	@GetMapping(Constants.URL_LOGOUTOK)
 	public ResponseEntity<String> logoutok() {
 		return ResponseEntity.ok().build();
 	}
-	
 	
 	@GetMapping(value = Constants.URL_LOGINOK)
 	public ResponseEntity<String> loginok() {

@@ -1,5 +1,7 @@
 package ar.edu.iua.gespro;
 
+import javax.sql.DataSource;
+
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -16,6 +18,9 @@ public class GesproApplication implements CommandLineRunner{
 
 	final static Logger logger = Logger.getLogger("GesproApplication.class");
 	
+	@Autowired
+	private DataSource dataSource;
+	
 	public static void main(String[] args) {
 		
 		logger.info("Start the app");
@@ -29,6 +34,6 @@ public class GesproApplication implements CommandLineRunner{
 	
 	@Override
 	public void run(String... args) throws Exception {
-		uDAO.setPassword(pe.encode("password"), "admin", "");
+		logger.debug("datasource is " + dataSource);
 	}
 }

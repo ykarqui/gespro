@@ -1,13 +1,15 @@
 angular.module('gpro').factory('coreService',
-		['$http','$q','URL_BASE', function($http, $q, URL_BASE) {
+		['$http', 'URL_BASE', '$log', function($http, URL_BASE, $log) {
 			return {
 				logout: function() {
 					return $http.get(URL_BASE+"logout");
 				},
-				authInfo: function(token) {
+				authInfo: function() {
 					 return $http.get(URL_BASE+"authinfo");
 				},
 				login: function(user) {
+					$log.info("user: "+user.name);
+					$log.info("pass: "+user.password);
 					var req = {
 						method: 'POST',
 						url: URL_BASE+'dologin',

@@ -1,5 +1,5 @@
 angular.module('gpro').controller('TaskController',
-		function($scope, $http, $log, taskServices, $uibModal, $document) {
+		function($scope, $http, $log, taskServices, $uibModal, $document, $rootScope) {
 			$scope.title='TASKS';
 			$scope.data = [];
 			$scope.instance = {};
@@ -10,6 +10,8 @@ angular.module('gpro').controller('TaskController',
 			$scope.instanceL = false;
 			$scope.isCollapsed = false;
 			$scope.sort;
+			
+			$rootScope.authInfo(true);
 
 			//---------------------------MODAL CONTROL-----------------------------
 			var $ctrl = this;
@@ -76,7 +78,6 @@ angular.module('gpro').controller('TaskController',
 								$scope.data.forEach(function(o, i){
 									if(o.id==id){
 										$scope.data.splice(i, 1);
-										$scope.refresh;
 										$scope.instance={};
 									}
 								});

@@ -3,9 +3,10 @@ angular.module('gpro')
 function LoginFormController($rootScope, $scope, $location, $window, $log, $uibModalInstance, coreService,user) {
 	$scope.title="Log In";
 	$scope.user=user;	
-	$scope.login = function (us) {
+	$scope.login = function () {
 		$log.log("Method Log In");
-		coreService.login(us).then(
+		
+		coreService.login(user).then(
 			function(resp){
 				$log.log("after Core Service");
 				if(resp.status===200) {
@@ -16,8 +17,6 @@ function LoginFormController($rootScope, $scope, $location, $window, $log, $uibM
 					$rootScope.user.name=resp.data.username;
 					$rootScope.user.roles = resp.data.roles;
 					$rootScope.auth=true;
-					if($rootScope.cbauth)
-						$rootScope.cbauth();
 				}else{
 					$log.log("Receive !200");
 					$rootScope.auth=false;					
