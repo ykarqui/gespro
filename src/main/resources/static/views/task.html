@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Tasks</title>
+<style>
+	table, th , td  {
+  		border-collapse: collapse;
+	  	padding: 10px;
+	  	border: none;
+	  	
+	}
+	table tr:nth-child(odd) {
+	  background-color: #f1f1f1;
+	}
+	table tr:nth-child(even) {
+	  background-color: #ffffff;
+	}
+</style>
+</head>
+<body>
+<div ng-controller="TaskController as $ctrl" class="modal-demo">
+	<!-- modal window -->
+	<script type="text/ng-template" id="myModalContent.html">
+        <div class="modal-header">
+            <h3 class="modal-title" id="modal-title">Add a task</h3>
+        </div>
+        <div class="modal-body" id="modal-body">
+			<table class="table">
+  				<tr>
+    				<td>Task name </td>
+    				<td> 
+    					<input type="text" maxlength="40" required minlength=2 ng-model="$ctrl.instance.name"/>
+    				</td>
+  				</tr>
+  				<tr>
+    				<td>Estimated </td>
+    				<td> 
+    					<input type="number" ng-model="$ctrl.instance.estimate" min="0" /> days
+    				</td>
+  				</tr>
+  				<tr>
+    				<td>Priority </td>
+    				<td> 
+    					<div class="btn-group">
+        						<label class="btn btn-primary" ng-model="$ctrl.instance.priority" uib-btn-radio="'Low'">Low</label>
+        						<label class="btn btn-primary" ng-model="$ctrl.instance.priority" uib-btn-radio="'Medium'">Medium</label>
+        						<label class="btn btn-primary" ng-model="$ctrl.instance.priority" uib-btn-radio="'High'">High</label>
+    					</div>
+    				</td>
+  				</tr>
+			</table>
+			<!-- 
+            <ul>
+                <li>
+                    Task name : <input type="text" maxlength="40" required minlength=2 ng-model="$ctrl.instance.name"/>
+                </li>
+				<li>
+                    Estimated : <input type="number" ng-model="$ctrl.instance.estimate" min="0" /> days
+                </li>
+				 <li>
+                   Selected : {{$ctrl.instance.priority}}
+                </li>
+				<li>
+                    Priority : 
+							<div class="btn-group">
+        						<label class="btn btn-primary" ng-model="$ctrl.instance.priority" uib-btn-radio="'Low'">Low</label>
+        						<label class="btn btn-primary" ng-model="$ctrl.instance.priority" uib-btn-radio="'Medium'">Medium</label>
+        						<label class="btn btn-primary" ng-model="$ctrl.instance.priority" uib-btn-radio="'High'">High</label>
+    						</div>
+                </li>
+            </ul>
+        </div> -->
+        <div class="modal-footer">
+            <button class="btn btn-success" type="button" ng-click="$ctrl.ok()">Save</button>
+            <button class="btn btn-warning" type="button" ng-click="$ctrl.cancel()">Cancel</button>
+        </div>
+    </script>
+	<h1>{{title}}</h1>
+	<table st-table="rowCollection" class="table table-striped">
+		<thead>
+			<tr>
+				<th> </th>
+				<th>Task name </th>
+				<th>List </th>
+				<th>Estimated </th>
+				<th>Priority <i class="fas fa-caret-up" ng-click="sortBy('priority')"></i></th>
+				<th>Created <i class="fas fa-sort-down" ng-click="sortBy('created')"></i></th>
+				<th>Modified </th>
+				<th>Actions</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="t in data" ng-init="list=t.listName">
+				<td>{{ $index + 1 }}</td>
+				<td>{{t.name}}</td>
+				<td>
+					<span ng-hide="t.id==instanceL.id"> {{list.name}} 
+					<span><i class="fas fa-exchange-alt" ng-click="startChangeList(t)" title="Move to another list"></i>
+					</span>	</span>
+					<span ng-show="t.id==instanceL.id">
+					<input type="text" ng-model="instanceL.listName.name" placeholder="move list to..." maxlength="15">
+					<i ng-click="changeListTask(instanceL)" class="fas fa-check-circle" title="Save"></i> 
+					<i ng-click="cancelChange()" class="fas fa-times-circle" title="Cancel"></i></span>
+				</td>
+				<td>
+					<span ng-hide="t.id==instanceM.id">{{t.estimate}} days 
+					<span> <i ng-show="list.name=='backlog'" ng-click="startEdit(t)" class="fas fa-edit" title="Modify estimation"></i>
+					</span>	</span> 
+					<span ng-show="t.id==instanceM.id"> 
+					<input type="number" ng-model="instanceM.estimate" min="0" /> days 
+					<i ng-click="editTask(instanceM)" class="fas fa-check-circle" title="Save"></i> 
+					<i ng-click="cancelEdit()" class="fas fa-times-circle" title="Cancel"></i></span>
+				</td>
+				<td>{{t.priority}}</td>
+				<td>{{t.created | changeDate | date:'MMMM dd, yyyy HH:mm:ss'}}</td>
+				<td>{{t.modified | changeDate | date:'MMMM dd, yyyy HH:mm:ss'}}</td>
+				<td><i class="fas fa-trash-alt" ng-click="deleteTask(t.id)" title="Delete this task"></i></td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td colspan="7" class="text-center"><a ng-click="$ctrl.open()">
+				<i class="fas fa-plus-square" title="clic me!"></i> Add task</a></td>
+			</tr>
+		</tfoot>
+
+	</table>
+</div>
+</body>
+</html>

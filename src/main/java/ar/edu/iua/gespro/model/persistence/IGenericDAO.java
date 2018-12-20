@@ -4,6 +4,7 @@ import java.io.Serializable;
 import java.util.List;
 
 import ar.edu.iua.gespro.business.BusinessException;
+import ar.edu.iua.gespro.model.SprintList;
 import ar.edu.iua.gespro.model.exception.NotFoundException;
 
 public interface IGenericDAO<T, ID extends Serializable>{
@@ -11,6 +12,7 @@ public interface IGenericDAO<T, ID extends Serializable>{
 	public T save(T object);
 	public T update(T object);
 	public T getOne(String name) throws BusinessException, NotFoundException;
+	public boolean checkIfExists(String name) throws BusinessException;
 	public T getOneId(int id) throws BusinessException, NotFoundException;
 	public void delete(T object) throws NotFoundException;
 }

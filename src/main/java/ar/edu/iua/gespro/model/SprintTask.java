@@ -115,7 +115,7 @@ public class SprintTask {
 	@Override
 	public String toString() {
 		return "SprintTask\n\t [id: " + id + ",\n\t name: " + name + ",\n\t created: " + created + ",\n\t modified: "
-				+ modified + ",\n\t priority: " + priority + ",\n\t listName: " + listName + ",\n\t estimate: "
+				+ modified + ",\n\t priority: " + priority + ",\n\t listName: " + listName.getName() + ",\n\t estimate: "
 				+ estimate + "]";
 	}
 	

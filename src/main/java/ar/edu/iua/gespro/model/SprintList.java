@@ -78,9 +78,7 @@ public class SprintList {
 
 	@Override
 	public String toString() {
-		return "SprintList\n\t [id: " + id + ",\n\t name: " + name + ",\n\t sprintName: " + sprintName + ",\n\t task: "
-				+ task + "]";
+		return "SprintList\n\t [id: " + id + ",\n\t name: " + name + ",\n\t sprintName: " + sprintName + "]";
 	}
-	
 	
 }

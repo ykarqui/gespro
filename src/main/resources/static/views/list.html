@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Lists</title>
+</head>
+<body>
+<div ng-controller="ListController as $ctrl" class="modal-demo">
+<!-- modal window -->
+	<script type="text/ng-template" id="myModalContent.html">
+        <div class="modal-header">
+            <h3 class="modal-title" id="modal-title">Add a task</h3>
+        </div>
+        <div class="modal-body" id="modal-body">
+            <ul>
+                <li>
+                    Task name : <input type="text" maxlength="40" required minlength=2 ng-model="$ctrl.instance.name"/>
+                </li>
+				<li>
+                    Estimated : <input type="number" ng-model="$ctrl.instance.estimate" min="0" /> days
+                </li>
+				<!--<li>
+	                Selected : {{$ctrl.instance.priority}}
+                </li>-->
+				<li>
+                    Priority : 
+							<div class="btn-group">
+        						<label class="btn btn-primary" ng-model="$ctrl.instance.priority" uib-btn-radio="'Low'">Low</label>
+        						<label class="btn btn-primary" ng-model="$ctrl.instance.priority" uib-btn-radio="'Medium'">Medium</label>
+        						<label class="btn btn-primary" ng-model="$ctrl.instance.priority" uib-btn-radio="'High'">High</label>
+    						</div>
+                </li>
+            </ul>
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-success" type="button" ng-click="$ctrl.ok()">Save</button>
+            <button class="btn btn-warning" type="button" ng-click="$ctrl.cancel()">Cancel</button>
+        </div>
+    </script>
+
+	<h1>{{title}}  <button type="button" class="btn btn-primary" ng-click="isCollapsed =! isCollapsed">Add a list</button></h1>
+
+	<pre>
+	<table>
+		<tr>
+				<p>Created lists:</p>  
+			<td ng-repeat="l in data">{{l.name}} </td>
+		</tr>
+	</table>
+ 	</pre>
+	
+	<!--  -->
+	<div uib-collapse="isCollapsed">
+		<div class="well well-lg">
+		<table>
+			<tr> <td>
+			NAME:</td><td> <input type="text" ng-model="instance.name" placeholder="List name" required/></td>
+			</tr>
+			<tr> <td>
+			SPRINT:</td><td> <input type="text" ng-model="instance.sprintName" placeholder="Sprint list name" required/></td>
+			</tr>
+			<tr> <td colspan="2">
+			<button ng-show="showBtnSave()" class="btn btn-primary"
+				ng-click="addList()">GUARDAR</button></td></tr>
+		</table>
+		</div>
+	</div>
+
+
+	<table st-table="rowCollection" class="table table-striped"
+		ng-repeat="l in data" ng-init='tasks=l.task'>
+		<thead>
+			<tr>
+				<th></th>
+				<th>{{l.name}}'s tasks <i ng-click="deleteList(l.id)" class="fas fa-trash-alt" title="Delete list" ></i></th>
+				<th>Estimated</th>
+				<th>Priority <i class="fas fa-caret-up" ng-click="sortBy(l, 'priority')"></i> </th>
+				<th>Created <i class="fas fa-caret-down" ng-click="sortBy(l, 'created')"></i></th>
+				<th>Modified</th>
+				<th>Actions</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="t in tasks">
+				<td>{{ $index + 1 }}</td>
+				<td>{{t.name}}</td>
+				<td>
+					<span ng-hide="t.id==instanceM.id">{{t.estimate}} days 
+					<span> <i ng-show="l.name=='backlog'" ng-click="startTaskEdit(t,l)" class="fas fa-edit"  title="Modify estimation"></i>
+					</span>	</span> 
+					<span ng-show="t.id==instanceM.id"> 
+					<input type="number" ng-model="instanceM.estimate" min="0" /> days 
+					<i ng-click="editTask(instanceM)" class="fas fa-check-circle" title="Save"></i> 
+					<i ng-click="cancelEdit()" class="fas fa-times-circle" title="Cancel"></i></span>
+				</td>
+				<td>{{t.priority}}</td>
+				<td>{{t.created | changeDate | date:'MMMM dd, yyyy HH:mm:ss'}}</td>
+				<td>{{t.modified | changeDate | date:'MMMM dd, yyyy HH:mm:ss'}}</td>
+				<td><i class="fas fa-exchange-alt" title="Move to another list"></i> 
+					<i class="fas fa-trash-alt" ng-click="deleteTask(t)"  title="Delete this task"></i></td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr ng-show="l.name == 'backlog'">
+				<td colspan="6" class="text-center"><a ng-click="$ctrl.open()">
+				<i class="fas fa-plus-square"  title="Clic me!"></i> Add task</a></td>
+			</tr>
+		</tfoot>
+
+	</table>
+</div>
+</body>
+</html>

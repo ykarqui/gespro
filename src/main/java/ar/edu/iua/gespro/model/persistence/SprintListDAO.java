@@ -6,8 +6,11 @@ import java.util.List;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Join;
+import javax.persistence.criteria.JoinType;
 import javax.persistence.criteria.Root;
 
+import org.apache.log4j.Logger;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -27,6 +30,7 @@ public class SprintListDAO implements IGenericDAO<SprintList, Serializable> {
 	
 	@Autowired
 	private EntityManagerFactory emf;
+	final static Logger logger = Logger.getLogger("SprintListDAO.class");
 	
 	public SprintListDAO() {
 	}
@@ -49,7 +53,7 @@ public class SprintListDAO implements IGenericDAO<SprintList, Serializable> {
 
 			session.flush();
 			CriteriaBuilder builder = session.getCriteriaBuilder();
-
+			
 			CriteriaQuery<SprintList> query = builder.createQuery(SprintList.class);
 			Root<SprintList> from = query.from(SprintList.class);
 
@@ -61,6 +65,8 @@ public class SprintListDAO implements IGenericDAO<SprintList, Serializable> {
 
 			return resultSprintList;
 		} catch (HibernateException e) {
+			logger.error("Hibernate fail in findAll()");
+			logger.error(e);
 			e.printStackTrace();
 		} finally {
 			session.close();
@@ -85,7 +91,7 @@ public class SprintListDAO implements IGenericDAO<SprintList, Serializable> {
 		} finally {
 			session.close();
 		}
-
+		logger.debug("saving the list: "+object.getName());
 		return object;
 	}
 	
@@ -105,7 +111,7 @@ public class SprintListDAO implements IGenericDAO<SprintList, Serializable> {
 		} finally {
 			session.close();
 		}
-
+		logger.debug("updating the list: "+object.getName());
 		return object;
 	}
 
@@ -129,19 +135,58 @@ public class SprintListDAO implements IGenericDAO<SprintList, Serializable> {
 			
 			tx.commit();
 			if (sprintList.isEmpty()) {
-				return null;
+				logger.error("List not found. getOne(name)");
+				throw new NotFoundException();
 			}
 			return sprintList.get(0);
 
 		} catch (HibernateException e) {
 			if (tx != null)
 				tx.rollback();
+			logger.error(e);
 			e.printStackTrace();
 		} finally {
 			session.close();
 		}
 		
 		return null;
+	}
+	
+	@Override
+	public boolean checkIfExists(String name) throws BusinessException{
+		Session session = emf.unwrap(SessionFactory.class).openSession();
+		Transaction tx = null;
+
+		try {
+			tx = session.beginTransaction();
+
+			session.flush();
+			CriteriaBuilder builder = session.getCriteriaBuilder();
+
+			CriteriaQuery<SprintList> query = builder.createQuery(SprintList.class);
+			Root<SprintList> from = query.from(SprintList.class);
+
+			query.select(from).where(builder.equal(from.get("name"), name));
+			
+			List<SprintList> sprintList = session.createQuery(query).getResultList();
+			
+			tx.commit();
+			if (sprintList.isEmpty()) {
+				return false;
+			}else {
+				return true;
+			}
+
+		} catch (HibernateException e) {
+			if (tx != null)
+				tx.rollback();
+			logger.error(e);
+			e.printStackTrace();
+		} finally {
+			session.close();
+		}
+		
+		throw new BusinessException();
 	}
 	
 	@Override
@@ -161,6 +206,7 @@ public class SprintListDAO implements IGenericDAO<SprintList, Serializable> {
 		} catch (HibernateException e) {
 			if (tx != null)
 				tx.rollback();
+			logger.error(e);
 			e.printStackTrace();
 		} finally {
 			session.close();
@@ -185,13 +231,16 @@ public class SprintListDAO implements IGenericDAO<SprintList, Serializable> {
 			}
 
 			tx.commit();
-
+			logger.debug("the list: "+object.getName()+ " has been deleted");
 		} catch (HibernateException e) {
 			if (tx != null)
 				tx.rollback();
+			logger.error(e);
 			e.printStackTrace();
+			logger.error("Hibernate failure");
 		} finally {
 			session.close();
 		}
 	}
+	
 }
