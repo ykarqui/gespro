@@ -12,25 +12,30 @@
             <h3 class="modal-title" id="modal-title">Add a task</h3>
         </div>
         <div class="modal-body" id="modal-body">
-            <ul>
-                <li>
-                    Task name : <input type="text" maxlength="40" required minlength=2 ng-model="$ctrl.instance.name"/>
-                </li>
-				<li>
-                    Estimated : <input type="number" ng-model="$ctrl.instance.estimate" min="0" /> days
-                </li>
-				<!--<li>
-	                Selected : {{$ctrl.instance.priority}}
-                </li>-->
-				<li>
-                    Priority : 
-							<div class="btn-group">
+			<table class="table">
+  				<tr>
+    				<td>Task name </td>
+    				<td> 
+    					<input type="text" maxlength="40" required minlength=2 ng-model="$ctrl.instance.name"/>
+    				</td>
+  				</tr>
+  				<tr>
+    				<td>Estimated </td>
+    				<td> 
+    					<input type="number" ng-model="$ctrl.instance.estimate" min="0" /> days
+    				</td>
+  				</tr>
+  				<tr>
+    				<td>Priority </td>
+    				<td> 
+    					<div class="btn-group">
         						<label class="btn btn-primary" ng-model="$ctrl.instance.priority" uib-btn-radio="'Low'">Low</label>
         						<label class="btn btn-primary" ng-model="$ctrl.instance.priority" uib-btn-radio="'Medium'">Medium</label>
         						<label class="btn btn-primary" ng-model="$ctrl.instance.priority" uib-btn-radio="'High'">High</label>
-    						</div>
-                </li>
-            </ul>
+    					</div>
+    				</td>
+  				</tr>
+			</table>
         </div>
         <div class="modal-footer">
             <button class="btn btn-success" type="button" ng-click="$ctrl.ok()">Save</button>
@@ -43,7 +48,7 @@
 	<pre>
 	<table>
 		<tr>
-				<p>Created lists:</p>  
+			<td> <p>Created lists:</p> <td>  
 			<td ng-repeat="l in data">{{l.name}} </td>
 		</tr>
 	</table>
@@ -54,10 +59,10 @@
 		<div class="well well-lg">
 		<table>
 			<tr> <td>
-			NAME:</td><td> <input type="text" ng-model="instance.name" placeholder="List name" required/></td>
+			NAME </td><td> <input type="text" ng-model="instance.name" placeholder="List name" required/></td>
 			</tr>
 			<tr> <td>
-			SPRINT:</td><td> <input type="text" ng-model="instance.sprintName" placeholder="Sprint list name" required/></td>
+			SPRINT </td><td> <input type="text" ng-model="instance.sprintName" placeholder="Sprint list name" required/></td>
 			</tr>
 			<tr> <td colspan="2">
 			<button ng-show="showBtnSave()" class="btn btn-primary"
@@ -98,6 +103,9 @@
 				<td>{{t.modified | changeDate | date:'MMMM dd, yyyy HH:mm:ss'}}</td>
 				<td><i class="fas fa-exchange-alt" title="Move to another list"></i> 
 					<i class="fas fa-trash-alt" ng-click="deleteTask(t)"  title="Delete this task"></i></td>
+			</tr>
+			<tr > 
+				<td colspan="1" style="font-style:italic">Move the task here </td> 
 			</tr>
 		</tbody>
 		<tfoot>
